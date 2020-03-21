@@ -34,7 +34,7 @@ void draw() {
     Yspeed = 5;
   }
   rect(mouseX, 650, 100, 25);
-  boolean intersect = intersects (Xspeed, Yspeed, mouseX, 650, 100);
+  boolean intersect = intersects (X, Y, mouseX, 650, 100);
   if (intersect == true) {
     print("works");
     Yspeed = -5;

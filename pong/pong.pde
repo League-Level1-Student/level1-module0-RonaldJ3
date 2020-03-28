@@ -21,7 +21,6 @@ void draw() {
   if (X>900) {
     Xspeed =-5;
   }
-  if (X<0) {
     Xspeed = 5;
   }
 

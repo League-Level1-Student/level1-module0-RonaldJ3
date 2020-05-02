@@ -11,22 +11,25 @@ public class Houses {
 		r.setX(50);
 		r.setRandomPenColor();
 		r.penDown();
-		drawHouse("large");
+		drawHouse("small","Red");
 	}
 
-	public void drawHouse(String height) {
-		if (height.equals("small")) {
-			r.move(60);
-			r.turn(90);
-			r.move(30);
-			r.turn(90);
-			r.move(60);
-			r.setPenColor(0, 120, 0);
-			r.turn(-90);
-			r.move(20);
-			r.penUp();
-			r.move(100);
+	public void drawHouse(String height, String color) {
+		if (color.equals("Red")) {
+			r.setPenColor(200, 0, 0);
 
+			if (height.equals("small")) {
+				r.move(60);
+				r.turn(90);
+				r.move(30);
+				r.turn(90);
+				r.move(60);
+				r.setPenColor(0, 120, 0);
+				r.turn(-90);
+				r.move(20);
+				r.penUp();
+				r.move(100);
+			}
 		}
 		if (height.equals("medium")) {
 			r.move(120);

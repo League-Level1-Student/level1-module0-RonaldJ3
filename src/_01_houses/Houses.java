@@ -11,7 +11,30 @@ public class Houses {
 		r.setX(50);
 		r.setRandomPenColor();
 		r.penDown();
-		drawHouse("large", "red");
+		drawFlatRoof("red","large");
+		drawHouse("small", "red");
+	}
+	public void drawFlatRoof(String color, String height){
+		if (color.equals("Red")) {
+			r.setPenColor(200, 0, 0);
+		} else if (color.equals("Green")) {
+			r.setPenColor(0, 200, 0);
+		} else if (color.equals("blue")) {
+			r.setPenColor(0, 0, 200);
+		}
+		
+		if (height.equals("large")) {
+			r.move(250);
+			r.turn(90);
+			r.move(30);
+			r.turn(90);
+			r.move(250);
+			r.setPenColor(0, 120, 0);
+			r.turn(-90);
+			r.move(20);
+			r.turn(-90);
+
+		}
 	}
 
 	public void drawHouse(String height, String color) {
@@ -34,7 +57,7 @@ public class Houses {
 			r.turn(-90);
 			r.move(20);
 			r.penUp();
-			r.move(100);
+			r.turn(-90);
 		}
 		if (color.equals("Red")) {
 			r.setPenColor(200, 0, 0);
@@ -55,30 +78,9 @@ public class Houses {
 			r.turn(-90);
 			r.move(20);
 			r.penUp();
-			r.move(100);
-
-		}
-		if (color.equals("Red")) {
-			r.setPenColor(200, 0, 0);
-		} else if (color.equals("Green")) {
-			r.setPenColor(0, 200, 0);
-		} else if (color.equals("blue")) {
-			r.setPenColor(0, 0, 200);
-		}
-		if (height.equals("large")) {
-			r.move(250);
-			r.turn(45);
-			r.move(30);
-			r.turn(90);
-			r.move(30);
-			r.turn(45);
-			r.move(250);
-			r.setPenColor(0, 120, 0);
 			r.turn(-90);
-			r.move(20);
-			r.penUp();
-			r.move(100);
 
+		}
 		}
 	}
 }

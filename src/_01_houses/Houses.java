@@ -12,9 +12,9 @@ public class Houses {
 		r.setRandomPenColor();
 		r.penDown();
 		drawFlatRoof("large", "green");
-		drawFlatRoof("medium", "red");
+		drawHouse("medium", "red");
 		drawHouse("small", "blue");
-		drawFlatRoof("medium", "red");
+		drawHouse("medium", "blue");
 		drawFlatRoof("large", "green");
 	}
 
@@ -103,6 +103,8 @@ public class Houses {
 			r.setPenColor(0, 0, 200);
 		}
 		if (height.equals("medium")) {
+			r.penDown();
+			r.setPenColor(200, 0, 0);
 			r.move(120);
 			r.turn(45);
 			r.move(30);

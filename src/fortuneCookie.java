@@ -8,6 +8,7 @@ public class fortuneCookie {
 	public fortuneCookie() {
 		frame.add(button);
 		frame.pack();
+		button.addActionListener("this");
 	}
 
 	public void showButton() {

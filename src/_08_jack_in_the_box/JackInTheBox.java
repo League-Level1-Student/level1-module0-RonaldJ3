@@ -14,7 +14,7 @@ import javax.swing.JLabel;
 
 	public class JackInTheBox implements ActionListener {
 		JFrame frame = new JFrame();
-		JButton button = new JButton("suprise");
+		JButton button = new JButton("surprise");
 
 		public JackInTheBox() {
 			frame.add(button);
@@ -50,8 +50,7 @@ import javax.swing.JLabel;
 		               return new JLabel();
 		          } else {
 		               Icon icon = new ImageIcon(imageURL);
-		               JLabel imageLabel = new JLabel(icon);
-		               return imageLabel;
+					  return new JLabel(icon);
 		          }
 		     } catch (Exception e) {
 		          System.err.println("Could not find image " + fileName);

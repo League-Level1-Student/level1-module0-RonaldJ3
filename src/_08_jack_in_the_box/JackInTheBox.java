@@ -15,6 +15,7 @@ import javax.swing.JLabel;
 	public class JackInTheBox implements ActionListener {
 		JFrame frame = new JFrame();
 		JButton button = new JButton("surprise");
+		int counter = 0 ;
 
 		public JackInTheBox() {
 			frame.add(button);
@@ -27,7 +28,8 @@ import javax.swing.JLabel;
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			// TODO Auto-generated method stub
-			
+			counter ++ ;
+			if counter
 		}
 		private void showPicture(String fileName) {
 		     try {

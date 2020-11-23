@@ -38,7 +38,7 @@ public class SoundEffectsMachine implements ActionListener {
         if (e.getSource()==button1) {
             playSound("sawing-wood-daniel_simon.wav");
         }
-        if (e.getSource()==button2) {
+       if (e.getSource()==button2) {
             playSound("boing.wav");
         }
         if (e.getSource()==button3) {

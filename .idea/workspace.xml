@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7f04774-bc0a-481a-8a60-fd081c8efc9a" name="Default Changelist" comment="" />
+    <list default="true" id="c7f04774-bc0a-481a-8a60-fd081c8efc9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,7 +52,7 @@
       <recent name="C:\Users\C2SDK\Documents\GitHub\level1-module0-RonaldJ3\src\_09_sound_effects_machine" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SoundEffectsMachineRunner">
+  <component name="RunManager" selected="Application.cutenessTv">
     <configuration name="JackInTheBoxRunner" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_08_jack_in_the_box.JackInTheBoxRunner" />
       <module name="Level1-Module0" />
@@ -76,6 +79,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="cutenessTv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_cuteness_tv.cutenessTv" />
+      <module name="Level1-Module0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_10_cuteness_tv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.cutenessTv" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -101,10 +122,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="228" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602958093284">
+    <state x="194" y="0" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610220810157">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="228" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1602958093284" />
+    <state x="194" y="0" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1610220810157" />
     <state x="505" y="178" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604778328728">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -113,26 +134,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="579" y="82" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1602958817727" />
-    <state width="1115" height="167" key="GridCell.Tab.0.bottom" timestamp="1605984819564">
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1610308891197">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599358963788" />
-    <state width="1115" height="167" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605984819564" />
-    <state width="1115" height="167" key="GridCell.Tab.0.center" timestamp="1605984819563">
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1610308891197" />
+    <state width="1323" height="201" key="GridCell.Tab.0.bottom" timestamp="1610219871812">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599358963787" />
-    <state width="1115" height="167" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605984819563" />
-    <state width="1115" height="167" key="GridCell.Tab.0.left" timestamp="1605984819561">
+    <state width="1323" height="201" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1610219871812" />
+    <state width="1323" height="201" key="GridCell.Tab.0.center" timestamp="1610219871811">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599358963787" />
-    <state width="1115" height="167" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605984819561" />
-    <state width="1115" height="167" key="GridCell.Tab.0.right" timestamp="1605984819563">
+    <state width="1323" height="201" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1610219871811" />
+    <state width="1323" height="201" key="GridCell.Tab.0.left" timestamp="1610219871809">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599358963788" />
-    <state width="1115" height="167" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605984819563" />
+    <state width="1323" height="201" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1610219871809" />
+    <state width="1323" height="201" key="GridCell.Tab.0.right" timestamp="1610219871811">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="201" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1610219871811" />
     <state width="1115" height="223" key="GridCell.Tab.1.bottom" timestamp="1605380443547">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -157,9 +178,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="251" y="0" width="1131" height="716" key="dock-window-2/0.0.1366.738@0.0.1366.738" timestamp="1602957944859" />
-    <state x="131" y="0" key="new project wizard" timestamp="1605987377365">
+    <state x="131" y="0" key="new project wizard" timestamp="1608405514280">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="131" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1605987377365" />
+    <state x="131" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1608405514280" />
   </component>
 </project>
